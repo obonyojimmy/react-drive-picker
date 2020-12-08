@@ -1,0 +1,30 @@
+{
+  "name": "react-drive-picker",
+  "version": "1.0.0",
+  "description": "React google drive picker api wrapper hook",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obonyojimmy/react-drive-picker.git"
+  },
+  "author": "obonyojimmy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/obonyojimmy/react-drive-picker/issues"
+  },
+  "homepage": "https://github.com/obonyojimmy/react-drive-picker#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "react": "^16.13.1",
+    "rollup": "^2.23.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
