@@ -7,7 +7,7 @@ export default {
   input: 'src/index.js',
   output: {
     file: pkg.main,
-    format: 'es',
+    format: 'cjs',
     exports: 'auto'
   },
   external: ['react'],
